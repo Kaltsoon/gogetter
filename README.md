@@ -12,4 +12,4 @@ Go version 1.17 or higher.
 
 1. Compile the code by running `go build`
 
-2. Execute the executable by running `./gogetter -url https://github.com/Kaltsoon/gogetter -maxdepth 1`. You can see the available options by running `./gogetter -h`.
+2. Execute the executable by running `./gogetter -url https://github.com/Kaltsoon/gogetter -maxdepth 1`. You can see the available options by running `./gogetter -h`. The executable will produce a JSON formatted report as a file under the `data` directory.
