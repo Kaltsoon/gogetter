@@ -1,3 +1,5 @@
+[![Test](https://github.com/Kaltsoon/gogetter/actions/workflows/test.yml/badge.svg)](https://github.com/Kaltsoon/gogetter/actions/workflows/test.yml)
+
 # gogetter
 
 Tool implement with Go for finding broken links on web page. The search starts from a given URL and recursively moves on to other URLs by following the links on the page. To avoid things getting out of hand, the recursive procedure will only go through pages which are under the same domain as the starting URL.
