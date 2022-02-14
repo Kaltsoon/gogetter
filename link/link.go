@@ -15,8 +15,8 @@ type Link struct {
 }
 
 type LinkJSON struct {
-	Text string
-	Href string
+	Text string `json:"text"`
+	Href string `json:"href"`
 }
 
 func New(selection *goquery.Selection) *Link {

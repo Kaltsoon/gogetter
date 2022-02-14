@@ -11,8 +11,8 @@ import (
 )
 
 type ScraperResult struct {
-	Url         string
-	BrokenLinks []*link.Link
+	Url         string       `json:"url"`
+	BrokenLinks []*link.Link `json:"brokenLinks"`
 }
 
 func CheckLink(link *link.Link, targetPage *page.Page, brokenLinksChannel chan *link.Link) {
