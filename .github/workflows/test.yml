@@ -24,7 +24,7 @@ jobs:
         run: go test -v ./...
 
   publish:
-    needs: test
+    needs: build
     runs-on: ubuntu-latest
     if: github.repository == 'Kaltsoon/gogetter' && github.ref == 'refs/heads/main'
     steps:
