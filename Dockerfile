@@ -10,7 +10,7 @@ COPY . .
 
 RUN go build -o gogetter
 
-FROM alpine:3.9 
+FROM alpine:3.15
 RUN apk add ca-certificates
 
 WORKDIR /usr/src/app
