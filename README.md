@@ -1,4 +1,4 @@
-# 🔍 gogetter
+# 🔍 GoGetter
 
 [![Test](https://github.com/Kaltsoon/gogetter/actions/workflows/test.yml/badge.svg)](https://github.com/Kaltsoon/gogetter/actions/workflows/test.yml)
 
