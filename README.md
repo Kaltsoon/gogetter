@@ -8,7 +8,7 @@ I have also implemented a similar tool with Python, which can be found [here](ht
 
 ## Requirements
 
-Go version 1.17 or higher.
+Docker or Go version 1.17 or higher.
 
 ## How to use
 
